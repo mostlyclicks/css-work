@@ -17,7 +17,8 @@ export default FlexWork
 const FlexDiv = styled.div`
   margin-top:4rem;
   display:flex;
-  height:150px;
+  //flex-direction:column;
+  height:auto;
   gap:1rem;
 
   justify-content:space-between;
@@ -59,6 +60,10 @@ const FlexDiv = styled.div`
 
       // takes up 50% of the content. Will wrap if over.
       flex-basis:50%;
+      
+      @media (max-width:768px) {
+        flex-basis:100%;
+      }
     }
   }
   
