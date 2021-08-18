@@ -18,6 +18,7 @@ const FlexDiv = styled.div`
   margin-top:4rem;
   display:flex;
   height:150px;
+  gap:1rem;
 
   justify-content:space-between;
   justify-content:space-around;
@@ -26,19 +27,39 @@ const FlexDiv = styled.div`
   // flex-direction:row-reverse;
 
   align-items:center;
-  align-items:flex-end;
+  //align-items:flex-end;
 
+  flex-wrap:wrap;
   
   outline:1px solid red;
+
   div {
+    display:flex;
+    align-items:center;
+    justify-content:center;
     outline: 1px solid blue;
     width:75px;
     height:75px;
-  }
-  div:nth-child(4) {
-    outline:1px solid red;
-    //flex grow takes up rest of empty space
-    flex-grow:1;
 
+     &:nth-child(1) {
+      flex-basis:25%;
+      
+    }
+
+    &:nth-child(2) {
+      //flex-basis:25%;
+      flex-grow:1;
+    }
+
+    &:nth-child(4) {
+      outline:1px solid red;
+
+      //flex grow takes up rest of empty space
+      //flex-grow:1;
+
+      // takes up 50% of the content. Will wrap if over.
+      flex-basis:50%;
+    }
   }
+  
 `
