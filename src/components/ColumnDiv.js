@@ -19,7 +19,7 @@ const ColumnDiv = () => {
 export default ColumnDiv
 
 const WrapperDiv = styled.div`
-  padding:2rem;
+  
 `
 
 const Columns = styled.div`
