@@ -11,7 +11,6 @@ const ColumnDiv = () => {
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente explicabo molestiae deleniti, recusandae, minima, molestias cupiditate repellendus magni minus accusamus modi. Deleniti, officia magni voluptas fugiat sint id quam?</p>
 
-        
       </Columns>
     </WrapperDiv>
   )
