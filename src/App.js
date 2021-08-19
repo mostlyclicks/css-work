@@ -3,6 +3,7 @@ import './App.css';
 import ColumnDiv from './components/ColumnDiv'
 import FlexWork from './components/FlexWork'
 import AutoWork from './components/AutoWork'
+import Marker from './components/Marker'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ColumnDiv />
       <FlexWork />
       <AutoWork />
+      <Marker />
     </div>
   );
 }
