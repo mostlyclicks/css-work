@@ -20,4 +20,6 @@ export default Nav
 
 const Ul = styled.ul`
   flex-basis:17%;
+  outline:1px solid green;
+  min-width:190px;
 `
