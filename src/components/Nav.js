@@ -18,19 +18,19 @@ export default Nav
 
 const Ul = styled.ul`
   flex-basis:17%;
-  outline:1px solid green;
   min-width:190px;
   text-align:left;
   margin:0;
   padding:0;
   li::marker {
     content:"➜";
+    color:#ebebeb;
   }
   
   li a {
     display:block;
     padding:.5rem .5rem;
-    outline:1px solid blue;
+    text-decoration:none;
     &:hover {
       background-color:#d2d2d2;
       transition:300ms;
