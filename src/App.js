@@ -12,6 +12,7 @@ import ColumnDiv from './components/ColumnDiv'
 import FlexWork from './components/FlexWork'
 import AutoWork from './components/AutoWork'
 import Marker from './components/Marker'
+import Card from './components/Card'
 import SwitchWrapper from './components/SwitchWrapper'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/flex-work" component={FlexWork} />
             <Route path="/auto-work" component={AutoWork} />
             <Route path="/marker" component={Marker} />
+            <Route path="/card" component={Card} />
           </Switch>
         </SwitchWrapper>
       </div>

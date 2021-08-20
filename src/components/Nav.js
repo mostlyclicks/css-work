@@ -10,6 +10,7 @@ const Nav = () => {
       <li><Link to="/flex-work">Flex Work</Link></li>
       <li><Link to="/auto-work">Auto Work</Link></li>
       <li><Link to="/marker">Marker</Link></li>
+      <li><Link to="/card">Card</Link></li>
     </Ul>
   )
 }
