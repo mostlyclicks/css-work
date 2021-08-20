@@ -4,15 +4,13 @@ import styled from 'styled-components'
 
 const Nav = () => {
   return (
-    
-      <Ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/column-div">Column Div</Link></li>
-        <li><Link to="/flex-work">Flex Work</Link></li>
-        <li><Link to="/auto-work">Auto Work</Link></li>
-        <li><Link to="/marker">Marker</Link></li>
-      </Ul>
-    
+    <Ul>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/column-div">Column Div</Link></li>
+      <li><Link to="/flex-work">Flex Work</Link></li>
+      <li><Link to="/auto-work">Auto Work</Link></li>
+      <li><Link to="/marker">Marker</Link></li>
+    </Ul>
   )
 }
 
@@ -22,4 +20,20 @@ const Ul = styled.ul`
   flex-basis:17%;
   outline:1px solid green;
   min-width:190px;
+  text-align:left;
+  margin:0;
+  padding:0;
+  li::marker {
+    content:"➜";
+  }
+  
+  li a {
+    display:block;
+    padding:.5rem .5rem;
+    outline:1px solid blue;
+    &:hover {
+      background-color:#d2d2d2;
+      transition:300ms;
+    }
+  }
 `

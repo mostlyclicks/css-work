@@ -14,4 +14,6 @@ export default SwitchWrapper
 const Wrapper = styled.div`
   outline:1px solid red;
   flex:1 auto;
+  margin-left:2rem;
+  
 `
