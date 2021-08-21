@@ -19,13 +19,15 @@ export default Card
 
 
 const Div = styled.div`
-  outline:1px solid #3b3b3b;
-  border-radius:20px;
+
+  border-radius:10px;
   width:100%;
   height:auto;
   padding:1rem;
   display:flex;
   align-items:center;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  margin:0 auto;
 
   div {
     flex-grow:3;

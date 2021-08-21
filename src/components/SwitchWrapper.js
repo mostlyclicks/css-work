@@ -13,6 +13,7 @@ export default SwitchWrapper
 
 const Wrapper = styled.div`
   flex:1 auto;
-  margin-left:2rem;
+  margin-left:120px;
+  padding:2rem;
   
 `
