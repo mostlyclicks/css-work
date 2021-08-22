@@ -14,6 +14,7 @@ import AutoWork from './components/AutoWork'
 import Marker from './components/Marker'
 import Card from './components/Card'
 import SwitchWrapper from './components/SwitchWrapper'
+import Buttons from './components/Buttons.js'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             <Route path="/auto-work" component={AutoWork} />
             <Route path="/marker" component={Marker} />
             <Route path="/card" component={Card} />
+            <Route path="/buttons" component={Buttons} />
           </Switch>
         </SwitchWrapper>
       </div>

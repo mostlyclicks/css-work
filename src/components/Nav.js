@@ -1,18 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import logo from '../logo.svg'
 
 const Nav = () => {
   return (
     <NavWrapper>
-    <Ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/column-div">Column Div</Link></li>
-      <li><Link to="/flex-work">Flex Work</Link></li>
-      <li><Link to="/auto-work">Auto Work</Link></li>
-      <li><Link to="/marker">Marker</Link></li>
-      <li><Link to="/card">Card</Link></li>
-    </Ul>
+      <Img src={logo} />
+      <Ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/column-div">Column Div</Link></li>
+        <li><Link to="/flex-work">Flex Work</Link></li>
+        <li><Link to="/auto-work">Auto Work</Link></li>
+        <li><Link to="/marker">Marker</Link></li>
+        <li><Link to="/card">Card</Link></li>
+        <li><Link to="/buttons">Buttons</Link></li>
+      </Ul>
     </NavWrapper>
   )
 }
@@ -35,8 +38,8 @@ const Ul = styled.ul`
   text-align:left;
   margin:0;
   padding:0;
-  margin-left:.4em;
   
+  font-size:90%;
   // li::marker {
   //   content:"➜";
   //   color:#ffffff;
@@ -52,3 +55,23 @@ const Ul = styled.ul`
     }
   }
 `
+
+const Img = styled.img`
+  animation: rotation 2s inifinite linear;
+`
+
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+
+
+
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
