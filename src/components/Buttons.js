@@ -19,6 +19,7 @@ const Button = styled.div`
     background-color:#252525;
     color:#ffffff;
     transition:500ms;
-    transform:translate(5px, 10px);
+    // transform:translate(5px, 10px);
+    transform:scale(0.98, 0.98);
   }
 `
