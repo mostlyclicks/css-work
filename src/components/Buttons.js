@@ -19,6 +19,6 @@ const Button = styled.div`
     background-color:#252525;
     color:#ffffff;
     transition:500ms;
-    transform-x:5px;
+    transform:translate(5px, 10px);
   }
 `
